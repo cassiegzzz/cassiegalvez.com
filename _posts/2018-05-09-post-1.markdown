@@ -1,6 +1,7 @@
 ---
 title: Post 1
 date: 2018-05-09 22:36:00 Z
+color: "#00ff99"
 ---
 
 Post 1
