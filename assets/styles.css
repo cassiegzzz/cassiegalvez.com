@@ -1,0 +1,79 @@
+html {
+  background: #343335;
+}
+
+body {
+  background: #343335;
+}
+
+.navbar.is-info {
+    background-color: #fcb338;
+    color: #fff;
+}
+
+.hero-body {
+  background: #fcb338;
+  padding: 200px;
+}
+
+.hero.is-light .title {
+    color: white;
+}
+
+.navbar-link.is-active,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:hover {
+  background-color: white;
+  color: #343335;
+}
+
+.navbar-link::after {
+    border-color: #fff;
+    margin-top: -.375em;
+    right: 1.125em;
+}
+
+.subtitle {
+  color: white;
+}
+
+
+.navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link, .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link {
+    background-color: white;
+    color: #343335;
+}
+
+
+.logo {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.columns {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contact {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.label {
+  color: white;
+}
+
+.contactinfo {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.is-small {
+  color: white;
+}
+
+.resumetext {
+  width: 50%;
+  margin: 0 auto;
+}
