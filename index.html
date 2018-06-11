@@ -3,14 +3,20 @@ layout: default
 ---
 
 <div class="posts">
-        {% for post in site.posts %}
-          <a href="{{ post.url }}">
-            <section class="card">
-              <div class="grow">
-                <img src="{{ post.cover-image }}" alt="{{ post.title }}">
-              </div> 
-              <h4>{{ post.title }}</h4> 
+
+
+        {% for work in site.posts %}
+    
+        <a href="{{ post.url }}">
+            <section class="workportfolio">
+              <img src="{{ post.cover-image }}" alt="{{ post.title }}">
+              <figcaption>
+                <h4>{{ post.title }}</h4>
+              </figcaption>
             </section>
-          </a>
-          {% endfor %}
-        </div>
+            </a>
+      
+      {% endfor %}
+
+    </div>
+        
