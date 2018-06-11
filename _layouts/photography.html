@@ -1,0 +1,26 @@
+
+
+{% include head.html %}
+{% include header.html %}
+
+   
+   <main class="portfolio">
+      <h1>{{ page.title }}</h1>
+
+    {% for work in site.photography %}
+    
+      <a href="{{ work.url }}">
+          <section class="workportfolio">
+            <img src="{{ work.cover-image }}" alt="{{ work.title }}">
+            <figcaption>
+              <h4>{{ work.title }}</h4>
+            </figcaption>
+          </section>
+          </a>
+    
+    {% endfor %}
+    
+
+
+
+{% include foot.html %} 
