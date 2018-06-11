@@ -89,7 +89,8 @@ p {
 
 
 .portfolio {
-  margin-top: 100px;
+  margin: 0 auto;
+  margin-top: 75px;
 }
 
 .content {
