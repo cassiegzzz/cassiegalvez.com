@@ -93,9 +93,8 @@ p {
 }
 
 .content {
+  margin: 0 auto;
   margin-top: 75px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
   width: 50%;
 
 }
