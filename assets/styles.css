@@ -6,6 +6,11 @@ body {
   background: #343335;
 }
 
+h1 {
+  color: white;
+  font-size: 20pt;
+}
+
 .navbar.is-info {
     background-color: #fcb338;
     color: #fff;
