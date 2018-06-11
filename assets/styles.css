@@ -94,22 +94,14 @@ h1{
   font-weight:300;
 }
 
-.grow{
-  overflow:hidden;
-  max-width:400px;
-  max-height:300px;
-}
 
 .card img{
   height:300px;
   transition: all .65s ease-in-out;
 }
 
-.card img:hover{
-  transform: scale(1.08);
-}
 
-.work{
+.portfolio{
   margin:0 auto;
   max-width:1600px;
   display:flex;
@@ -133,6 +125,6 @@ h1{
   margin-top:15px;
 }
 
-.work a{
+.portfolio a{
   height: 390px;
 }
