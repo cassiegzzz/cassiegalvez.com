@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<<<<<<< HEAD
 <div class="posts">
   {% for post in site.posts %}
     <a href="{{ post.url }}">
@@ -16,23 +15,3 @@ layout: default
     {% endfor %}
   </div>
  
-=======
-<main class="portfolio">
-<h1>{{ post.title }}</h1>
-   
-        {% for work in site.posts %}
-    
-        <a href="{{ post.url }}">
-            <section class="workportfolio">
-              <img src="{{ post.cover-image }}" alt="{{ post.title }}">
-              <figcaption>
-                <h4>{{ post.title }}</h4>
-              </figcaption>
-            </section>
-            </a>
-      
-      {% endfor %}
-
-      </main>
- 
->>>>>>> 48d996111637119eaec1f6cb4976fd05e818b8ac
