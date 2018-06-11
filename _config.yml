@@ -2,6 +2,9 @@
 title: CassieGalvez.com
 timezone: UTC
 collections:
+  photography:
+    title: Photography
+    output: true
   portfolio:
     title: Portfolio
     output: true
