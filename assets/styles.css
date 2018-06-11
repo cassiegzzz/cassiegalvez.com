@@ -101,10 +101,8 @@ p {
 }
 
 .posts {
-  width: 10%;
+  width: 50%;
   margin: 0 auto;
-  display: block;
-  float:left;
 }
 
 .workportfolio {
