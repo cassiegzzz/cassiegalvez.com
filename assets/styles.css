@@ -83,7 +83,7 @@ p {
 }
 
 
-/*portfolio */
+/*portfolio 
 
 h1{
   margin: 50px 0 30px;
@@ -127,4 +127,79 @@ h1{
 
 .portfolio a{
   height: 390px;
+} 
+
+new portfolio css */
+
+
+
+.workportfolio{
+  margin: 10px auto;
+  width: 30%;
+  min-width: 300px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  transition: .5s;
+  border-radius: 30px;
+  
+  img {
+    display: block;
+    object-fit: contain;
+    width: 102%;
+    border-radius: 30px;
+    filter: brightness(100%);
+    transition: .5s;
+    will-change: transform;
+  }
+  
+  figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    filter: blur(5px);
+    color: white;
+    opacity: 0;
+    transition: .5s;
+    width: 70%;
+    text-align: center;
+    
+    h4 {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      &::after {
+        content: " ";
+        width: 0%;
+        position: absolute;
+ 
+        left: 50%;
+        bottom: 0%;
+        transition: .5s;
+      }
+    }
+
+  }
+}
+
+.workportfolio:hover {  
+  img {
+    z-index: -1;
+    filter: brightness(30%) blur(3px);
+    transform: scale(2);
+  }
+  
+  figcaption{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    filter: blur(0px);
+    z-index:1;
+    
+    h4::after {
+      width: 100%;
+      left: 0%;
+      bottom: -15%;
+    }
+  }
 }

@@ -6,12 +6,10 @@
    <h1>{{ page.title }}</h1>
    <main class="portfolio">
    
-   {% for work in site.portfolio %}
+    {% for work in site.portfolio %}
     <a href="{{ work.url }}">
-      <section class="card">
-        <div class="grow">
+      <section class="workportfolio">
           <img src="{{ work.cover-image }}" alt="{{ work.title }}">
-        </div> 
         <h4>{{ work.title }}</h4> 
       </section>
     </a>
