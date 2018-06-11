@@ -103,8 +103,8 @@ p {
 
 
 .workportfolio {
-  margin: 10px auto;
-  width: 30%;
+  margin: 10px;
+  width: 20%;
   min-width: 300px;
   overflow: hidden;
   display: block;
