@@ -7,12 +7,14 @@
    <main class="portfolio">
    
     {% for work in site.portfolio %}
-    <a href="{{ work.url }}">
+    
       <section class="workportfolio">
+          <a href="{{ work.url }}">
           <img src="{{ work.cover-image }}" alt="{{ work.title }}">
         <h4>{{ work.title }}</h4> 
+      </a>
       </section>
-    </a>
+    
     {% endfor %}
     
 </main>
