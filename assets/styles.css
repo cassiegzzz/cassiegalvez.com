@@ -197,9 +197,4 @@ new portfolio css */
           filter: blur(0px);
   z-index: 1;
 }
-.workportfolio:hover figcaption h4::after {
-  width: 100%;
-  left: 0%;
-  bottom: -15%;
-}
 
