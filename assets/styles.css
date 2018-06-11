@@ -100,7 +100,10 @@ p {
 
 }
 
-
+.posts {
+  width: 25%;
+  margin: 0 auto;
+}
 
 .workportfolio {
   margin: 10px;
