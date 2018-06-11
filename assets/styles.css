@@ -133,4 +133,73 @@ new portfolio css */
 
 
 
+.workportfolio {
+  margin: 10px auto;
+  width: 30%;
+  min-width: 300px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  transition: .5s;
+  border-radius: 30px;
+}
+.workportfolio img {
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 102%;
+  border-radius: 30px;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  transition: .5s;
+  will-change: transform;
+}
+.workportfolio figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(2);
+          transform: translate(-50%, -50%) scale(2);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  color: white;
+  opacity: 0;
+  transition: .5s;
+  width: 70%;
+  text-align: center;
+}
+.workportfolio figcaption h4 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.workportfolio figcaption h4::after {
+  content: " ";
+  width: 0%;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transition: .5s;
+}
+
+.workportfolio:hover img {
+  z-index: -1;
+  -webkit-filter: brightness(30%) blur(3px);
+          filter: brightness(30%) blur(3px);
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+.workportfolio:hover figcaption {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  z-index: 1;
+}
+.workportfolio:hover figcaption h4::after {
+  width: 100%;
+  left: 0%;
+  bottom: -15%;
+}
 
