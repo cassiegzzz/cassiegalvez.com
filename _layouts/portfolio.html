@@ -9,12 +9,12 @@ layout: default
    <main class="portfolio">
    
    {% for work in site.portfolio %}
-    <a href="{{ portfolio.url }}">
+    <a href="{{ work.url }}">
       <section class="card">
         <div class="grow">
-          <img src="{{ portfolio.cover-image }}" alt="{{ portfolio.title }}">
+          <img src="{{ work.cover-image }}" alt="{{ work.title }}">
         </div> 
-        <h4>{{ portfolio.title }}</h4> 
+        <h4>{{ work.title }}</h4> 
       </section>
     </a>
     {% endfor %}
