@@ -81,3 +81,58 @@ a.navbar-item:hover {
 p {
   color: white;
 }
+
+
+/*portfolio */
+
+h1{
+  margin: 50px 0 30px;
+  font-size: 3.5em;
+  font-family: europa, 'Montserrat', sans-serif;
+  color:whitesmoke;
+  text-align:center;
+  font-weight:300;
+}
+
+.grow{
+  overflow:hidden;
+  max-width:400px;
+  max-height:300px;
+}
+
+.card img{
+  height:300px;
+  transition: all .65s ease-in-out;
+}
+
+.card img:hover{
+  transform: scale(1.08);
+}
+
+.work{
+  margin:0 auto;
+  max-width:1600px;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  margin:10px 20px;
+  background: rgb(51, 51, 51);
+  width:400px;
+  height:350px;
+}
+
+.card h4{
+  font-family: europa, 'Montserrat', sans-serif;
+  font-weight:250;
+  letter-spacing:1px;
+  color:white;
+  text-align:center;
+  margin-top:15px;
+}
+
+.work a{
+  height: 390px;
+}
