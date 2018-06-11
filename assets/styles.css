@@ -106,13 +106,15 @@ p {
   width: 30%;
   min-width: 300px;
   overflow: hidden;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   transition: .5s;
   border-radius: 30px;
 }
 .workportfolio img {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   -o-object-fit: contain;
      object-fit: contain;
   width: 102%;
