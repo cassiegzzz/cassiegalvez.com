@@ -1,6 +1,7 @@
 ---
-title: Post 2
+title: I love cats
 date: 2018-05-09 22:36:00 Z
+cover-image: "/uploads/PAY-KITTENS-CUDDLING%5B1%5D.jpg"
 ---
 
-Post 2
+Can't you tell?
