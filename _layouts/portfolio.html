@@ -8,14 +8,14 @@
    
     {% for work in site.portfolio %}
     
-      <section class="workportfolio">
-          <a href="{{ work.url }}">
-          <img src="{{ work.cover-image }}" alt="{{ work.title }}">
-          <figcaption>
-        <h4>{{ work.title }}</h4> 
-      </figcaption>
-      </a>
-      </section>
+      <a href="{{ work.url }}">
+          <section class="workportfolio">
+            <img src="{{ work.cover-image }}" alt="{{ work.title }}">
+            <figcaption>
+              <h4>{{ work.title }}</h4>
+            </figcaption>
+          </section>
+          </a>
     
     {% endfor %}
     
