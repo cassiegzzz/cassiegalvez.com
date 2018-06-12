@@ -3,9 +3,11 @@
 <nav class="navbar is-info is-fixed-top">
 
 {% for page in site.pages %}
+ {% if page.category contains 'myPage' %}
     <a class="navbar-item" href="{{ page.url }}">
              {{ page.title }}
-             </a>   
+             </a>  
+             {% endif %} 
 {% endfor %}
    
  </nav>
