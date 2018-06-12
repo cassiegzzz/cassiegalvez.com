@@ -2,6 +2,7 @@
 title: About
 date: 2018-04-25 23:38:00 Z
 position: 0
+category: myPage
 layout: default
 ---
 
