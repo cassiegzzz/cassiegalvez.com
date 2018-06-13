@@ -5,11 +5,12 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <a href="{{ post.url }}">
-      <section class="card">
-        <div class="grow">
+      <section class="workportfolio">
+      
           <img src="{{ post.cover-image }}" alt="{{ post.title }}">
-        </div> 
+        <figcaption> 
         <h4>{{ post.title }}</h4> 
+        </figcaption>
       </section>
     </a>
     {% endfor %}
