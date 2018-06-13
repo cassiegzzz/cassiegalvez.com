@@ -2,6 +2,7 @@
 title: I love cats
 date: 2018-05-09 22:36:00 Z
 cover-image: "/uploads/PAY-KITTENS-CUDDLING%5B1%5D.jpg"
+layout: default
 ---
 
 Can't you tell?
