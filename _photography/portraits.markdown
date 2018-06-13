@@ -1,6 +1,6 @@
 ---
 title: Portraits
-cover-image: "/uploads/jasmine-4479b9.jpg"
+cover-image: "/uploads/jasmine.jpg"
 layout: work
 ---
 
