@@ -6,3 +6,4 @@ category: myPage
 layout: default
 ---
 
+Email: email@cassiegalvez.com
