@@ -1,7 +1,7 @@
 ---
 title: Portraits
 cover-image: "/uploads/jasmine.jpg"
-layout: work
+layout: portraits
 ---
 
 hire me to take your photos plz i need money!!!!
