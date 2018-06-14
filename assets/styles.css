@@ -319,7 +319,7 @@ p {
 }
 
 .resumeheading {
-  font-size:28px;
+  font-size:18px;
   padding-bottom:10px;
   border-bottom:2px solid #636366;
   margin-top:30px;
@@ -329,7 +329,7 @@ p {
   color:#383839;
   margin:0px;
   margin-top:30px;
-  font-size:22px;
+  font-size:16px;
   padding-bottom:5px;
   font-weight:bold;
 }
@@ -338,7 +338,7 @@ p {
   padding-bottom:5px;
   margin:0px;
   color:#636366;
-  font-size:19px;
+  font-size:14px;
 }
 
 .resumedate {
@@ -346,7 +346,7 @@ p {
   margin:0px;
   color:#9E9598;
   font-style:italic;
-  font-size:17px;
+  font-size:14px;
 }
 
 
