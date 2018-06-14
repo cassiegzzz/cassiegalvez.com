@@ -95,6 +95,12 @@ p {
 
 }
 
+.photodisplay{
+  margin: 0 auto;
+  margin-top: 75px;
+  width: 75%;
+}
+
 .leftright {
   float: left;
   width: 45%;
