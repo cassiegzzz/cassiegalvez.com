@@ -5,3 +5,4 @@ cover-image: "/uploads/layout_comp-01%5B1%5D.png"
 layout: soyouwanna
 ---
 
+A map of everything you need to know to be a designer.
