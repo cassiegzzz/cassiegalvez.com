@@ -116,6 +116,14 @@ p {
   color: white;
 }
 
+.content h2 {
+  color: white;
+}
+
+.content h3 {
+  color: white;
+}
+
 .workportfolio {
   margin: 10px;
   width: 20%;
