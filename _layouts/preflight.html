@@ -1,0 +1,49 @@
+
+
+{% include head.html %}
+{% include header.html %}
+
+   
+   <main class="content">
+ 
+    <h1>{{ page.title }}</h1>
+
+    <nav class="leftright">
+    <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="/_uploads/preflight1.jpg" alt="Salvador">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="https://fakeimg.pl/2000x1500/d3d3d3/262626/?text=I%20ran%20out%20of%20space" alt="Charlie">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="https://fakeimg.pl/2000x1500/d3d3d3/262626/?text=on%20Siteleaf" alt="Jasmine">
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li><label for="carousel-1" class="carousel-bullet">•</label></li>
+                <li><label for="carousel-2" class="carousel-bullet">•</label></li>
+                <li><label for="carousel-3" class="carousel-bullet">•</label></li>
+            </ol>
+        </div>
+    </div>
+
+</nav>
+
+<nav class="leftright">
+
+{{content}}
+</nav>
+
+    </main>
+
+{% include foot.html %} 
