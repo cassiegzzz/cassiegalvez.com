@@ -4,4 +4,4 @@ cover-image: "/uploads/jasmine.jpg"
 layout: portraits
 ---
 
-hire me to take your photos plz i need money!!!!
+Photography sessions start August 2018!
